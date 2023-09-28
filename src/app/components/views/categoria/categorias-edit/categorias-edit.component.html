@@ -1,0 +1,22 @@
+<div class="container">
+    <p>Cadastro de Fornecedor</p>
+
+<form action="" >
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" name="name" [(ngModel)]="categoria.nome" required>
+    </div>
+  
+    <div>
+        <label >Descrição:</label>
+        <input type="text" name="descricao" [(ngModel)]="categoria.descricao" required>
+      </div>
+
+  
+    <div class="buttons">
+        <button (click)="edit()" class="btnAtualizar">Atualizar</button>
+        <button (click)="cancel()" class="btnCancelar">Cancelar</button>
+    </div>
+  </form>
+
+</div>

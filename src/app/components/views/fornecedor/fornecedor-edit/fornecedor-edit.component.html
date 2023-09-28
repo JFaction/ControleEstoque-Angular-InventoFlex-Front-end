@@ -1,0 +1,46 @@
+<div class="container">
+    <p>Cadastro de Fornecedor</p>
+
+<form action="" >
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" name="name" [(ngModel)]="fornecedor.nome" required>
+    </div>
+  
+    <div>
+        <label for="email">Cnpj:</label>
+        <input type="text" name="cnpj" [(ngModel)]="fornecedor.cnpj" required>
+      </div>
+
+      <div>
+        <label for="email">Cep:</label>
+        <input type="text" name="cep" [(ngModel)]="fornecedor.cep" required>
+      </div>
+
+      <div>
+        <label for="email">Estado:</label>
+        <input type="text" name="estado" [(ngModel)]="fornecedor.estado" required>
+      </div>
+
+      <div>
+        <label for="email">Municipio:</label>
+        <input type="text" name="municipio" [(ngModel)]="fornecedor.municipio" required>
+      </div>
+
+      <div>
+        <label for="email">Logradouro:</label>
+        <input type="text" name="logradouro" [(ngModel)]="fornecedor.logradouro" required>
+      </div>
+
+      <div>
+        <label for="email">Numero:</label>
+        <input type="text" name="numero" [(ngModel)]="fornecedor.numero" required>
+      </div>
+  
+    <div class="buttons">
+        <button (click)="edit()" class="btnAtualizar">Atualizar</button>
+        <button (click)="cancel()" class="btnCancelar">Cancelar</button>
+    </div>
+  </form>
+  
+</div>

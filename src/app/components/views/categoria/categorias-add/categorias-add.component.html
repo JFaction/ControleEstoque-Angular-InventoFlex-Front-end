@@ -1,0 +1,22 @@
+<div class="container">
+    <p>Adicionar Categoria</p>
+
+<form action="" >
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" name="name" [(ngModel)]="categoria.nome" required>
+    </div>
+  
+    <div>
+        <label for="email">Descrição:</label>
+        <input type="text" name="cnpj" [(ngModel)]="categoria.descricao" required>
+      </div>
+
+  
+    <div class="buttons">
+        <button (click)="create()" class="btnAtualizar">Adicionar</button>
+        <button (click)="cancel()" class="btnCancelar">Cancelar</button>
+    </div>
+  </form>
+  
+</div>

@@ -1,0 +1,41 @@
+<div class="container">
+    <p>Alterar Produto</p>
+
+<form action="" >
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" name="name" [(ngModel)]="produto.nome" required>
+    </div>
+  
+    <div>
+        <label for="email">Cnpj:</label>
+        <input type="text" name="cnpj" [(ngModel)]="produto.quantidade" required>
+      </div>
+
+      <div>
+        <label for="email">Cep:</label>
+        <input type="text" name="cep" [(ngModel)]="produto.valor" required>
+      </div>
+
+      <div>
+        <label for="email">Categoria:</label>
+        <select matNativeControl [(ngModel)]="opcaoCategoria" name="opcaoCategoria" (change)="atualizarCategoria()">
+          <option *ngFor="let cat of categoria" [ngValue]="cat.id">{{ cat.nome }}</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="email">Fornecedor:</label>
+        <select matNativeControl [(ngModel)]="opcaoFornecedor" name="opcaoFornecedor" (change)="atualizarFornecedor()">
+          <option *ngFor="let forn of fornecedor" [ngValue]="forn.id">{{ forn.nome }}</option>
+        </select>
+      </div>
+
+  
+    <div class="buttons">
+        <button (click)="edit()" class="btnAtualizar">Atualizar</button>
+        <button (click)="cancel()" class="btnCancelar">Cancelar</button>
+    </div>
+  </form>
+  
+</div>

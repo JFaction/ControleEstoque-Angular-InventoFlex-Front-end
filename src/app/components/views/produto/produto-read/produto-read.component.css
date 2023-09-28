@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table{
+    border: 1px solid black;
+    width:90%;
+    height: 600px;
+}
+.campos{
+    background-color:white;
+}
+
+.campos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btnCampos{
+    width: 180px;
+    background-color: rgb(152, 190, 247);
+    border-radius: 0%;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+a{
+    text-decoration: none;  
+
+}

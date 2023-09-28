@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+}
+
+.icones{
+    max-width: 150px;
+}
+.grid{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.grid:hover{
+    cursor: pointer;
+    color: blue;
+}
+mat-grid-tile{
+    
+}
+mat-grid-list{
+    margin-top: -40px;
+}

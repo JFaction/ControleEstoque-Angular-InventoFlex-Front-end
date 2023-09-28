@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="movimentacao">
+    <div class="campos">
+      <label for="">Tipo de Movimentação</label>
+      <select name="" id="" [(ngModel)]="movimentacaoDTO.tipoMovimento">
+        <option value="entrada">Entrada</option>
+        <option value="saida">Saida</option>
+        <option *ngFor="let opcao of tipoMovimento" [value]="opcao.nome">{{ opcao.nome }}</option>
+      </select>
+    </div>
+    <div class="campos">
+      <label for="">Tipo de Pagamento</label>
+      <select name="" id="">
+        <option value="credito">Credito</option>
+        <option value="debito">Debito</option>
+        <option value="dinheiro">Dinheiro</option>
+        <option value="pix">Pix</option>
+      </select>
+    </div>
+    <div class="campos">
+      <label for="">Produto</label>
+      <select name="" id="">
+        <option value="entrada">Produto 1</option>
+        <option value="saida">Produto 2</option>
+      </select>
+    </div>
+    <div class="campos">
+      <label for="">Fornecedor</label>
+      <select name="" id="">
+        <option value="entrada">Fornecedor 1</option>
+        <option value="saida">Fornecedor 2</option>
+      </select>
+    </div>
+    <div class="campos">
+      <label for="">Quantidade</label>
+      <input type="text" name="" id="" />
+    </div>
+    <div class="movimentar">
+        <button>Movimentar</button>
+    </div>
+  </div>
+</div>
