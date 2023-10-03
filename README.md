@@ -1,27 +1,46 @@
-# Inventoflex
+# InventoFlex - Controle de Estoque
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Esse é o backend feito em Java usando Spring boot do sistema chamado InventoFlex.
 
-## Development server
+Nesse sistema é possível fazer o cadastro das categorias, fornecedores e produtos e há a possibilidade de efetuar as movimentações de entrada e saída dos itens.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Tecnologias utilizadas:
 
-## Build
+* Java
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Spring Boot
 
-## Running unit tests
+* Flyway
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* JPA
 
-## Running end-to-end tests
+* MySQL
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  
 
-## Further help
+## 🟢 **Executar o projeto:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para executar o projeto, basta seguir os seguintes passos:
+
+1. Abra o terminal e navegue até a pasta raiz do projeto.
+
+2. Digite o comando `**mvn spring-boot:run** e aguarde a compilação do projeto.
+
+3. Iniciar o projeto https://github.com/JFaction/ControleEstoque-Angular-InventoFlex-Front-end feito em angular para visualizar o front-end da aplicação.
+
+   A aplicação feita em Angular deve rodar na porta padrão (4200) para que seja autorizado consultar os endpoints do backend.
+
+4.  Configurar o MySQL na porta 3307
+
+
+
+## ✒️ Autores
+
+Aplicação desenvolvida por:
+
+* Juarez Souza
+
+
+
