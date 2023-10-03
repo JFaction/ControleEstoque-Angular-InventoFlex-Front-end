@@ -2,7 +2,7 @@
 
 Esse é o frontend feito em Angular do sistema chamado InventoFlex.
 
-Nesse sistema é possível fazer o cadastro das categorias, fornecedores e produtos e há a possibilidade de efetuar as movimentações de entrada e saída dos itens e também fazer a impessão do relatório de movimentações.
+Nesse sistema é possível fazer o cadastro das categorias, fornecedores e produtos e há a possibilidade de efetuar as movimentações de entrada e saída dos itens e também fazer a impressão do relatório de movimentações.
 
 
 
